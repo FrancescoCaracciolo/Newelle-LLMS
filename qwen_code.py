@@ -41,20 +41,23 @@ class QwenCodeLLM(OpenAIHandler):
         return s
     
     def get_token(self):
-        check_output(get_spawn_command() + ["bash", "-c", "timeout 2 qwen"])
+        check_output(get_spawn_command() + ["bash", "-c", "timeout 5 qwen"])
 
     def get_models(self, manual=False):
         self.set_api()
         return super().get_models(manual)
     
-    def set_api(self):
-        print("getting api")
+    def set_api(self, tri=0):
         if self.get_setting("get_api"):
             path = os.path.expanduser(self.get_setting("qwen_path"))
             with open(path) as f:
                 token = json.load(f)
-                if token["expiry_date"] < int(time.time()):
+                if token["expiry_date"] < time.time()*1000:
                     self.get_token()
+                    if tri>3:
+                        print("Failed to get token")
+                        return
+                    self.set_api(tri+1)
                 else:
                     self.set_setting("api", token["access_token"])
 

@@ -9,3 +9,4 @@ This repository contains some extra LLMs extensions for Newelle.
 | [nvidia.py](https://github.com/user/FrancescoCaracciolo/Newelle-LLMS/main/nvidia.py) | https://developer.nvidia.com/nim | OpenAI-compatible | Nvidia NIM API, free 40 req/min for open models |
 | [vercel.py](https://github.com/user/FrancescoCaracciolo/Newelle-LLMS/main/vercel.py) | [https://ai-gateway.vercel.sh](https://vercel.com/docs/ai-gateway/pricing) | OpenAI-compatible | Vercel AI Gateway with free monthly credits |
 | [voidai.py](https://github.com/user/repo/FrancescoCaracciolo/Newelle-LLMS/voidai.py) | https://voidai.app | OpenAI-compatible | VoidAI.app API with 125k token per day free |
+| [baseten.py](https://github.com/user/repo/FrancescoCaracciolo/Newelle-LLMS/baseten.py) | https://baseten.co | OpenAI-compatible | Baseten API with 1$ free trial |

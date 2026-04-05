@@ -11,3 +11,4 @@ This repository contains some extra LLMs extensions for Newelle.
 | [voidai.py](https://github.com/user/repo/FrancescoCaracciolo/Newelle-LLMS/voidai.py) | https://voidai.app | OpenAI-compatible | VoidAI.app API with 125k token per day free |
 | [baseten.py](https://github.com/user/repo/FrancescoCaracciolo/Newelle-LLMS/baseten.py) | https://baseten.co | OpenAI-compatible | Baseten API with 1$ free trial |
 | [kilo.py](https://github.com/user/repo/FrancescoCaracciolo/Newelle-LLMS/kilo.py) | https://api.kilo.ai | OpenAI-compatible | Kilo Code Gateway - OpenAI compatible API |
+| [cloudflare.py](https://github.com/FrancescoCaracciolo/Newelle-LLMS/blob/main/cloudflare.py) | https://www.cloudflare.com/ | OpenAI-compatible | Cloudflare Workers AI - free workers and 10k requests/day with Workers AI |

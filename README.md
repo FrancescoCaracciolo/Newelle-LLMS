@@ -15,3 +15,4 @@ This repository contains some extra LLMs extensions for Newelle.
 | [codex.py](https://github.com/FrancescoCaracciolo/Newelle-LLMS/blob/main/codex.py) | [ChatMock](https://github.com/anomalyco/ChatMock) | OpenAI-compatible | Use OpenAI Codex via ChatMock local server |
 | [cloudflare.py](https://github.com/FrancescoCaracciolo/Newelle-LLMS/blob/main/cloudflare.py) | https://www.cloudflare.com/ | OpenAI-compatible | Cloudflare Workers AI - free workers and 10k requests/day with Workers AI |
 | [coderplan.py](https://github.com/FrancescoCaracciolo/Newelle-LLMS/blob/main/coderplan.py) | https://coderplan.ai | OpenAI-compatible | CoderPlan API - OpenAI-compatible LLM provider |
+| [commandcode.py](https://github.com/FrancescoCaracciolo/Newelle-LLMS/blob/main/commandcode.py) | https://api.commandcode.ai | OpenAI-compatible | Command Code API - OpenAI-compatible LLM provider |
